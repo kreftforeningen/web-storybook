@@ -8,9 +8,6 @@ import {
   FactBoxAction,
 } from "kf-component-library";
 
-import "kf-tailwind";
-import "tailwindcss";
-
 const meta = {
   title: "components/FactBox",
   component: FactBox,

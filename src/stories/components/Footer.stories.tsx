@@ -31,9 +31,6 @@ import {
   FaTiktok,
 } from "react-icons/fa";
 
-import "kf-tailwind";
-import "tailwindcss";
-
 const meta = {
   title: "components/Footer",
   component: FooterWrapper,

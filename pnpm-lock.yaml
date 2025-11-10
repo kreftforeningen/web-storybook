@@ -10,7 +10,7 @@ importers:
     dependencies:
       kf-component-library:
         specifier: ^4.0.0
-        version: 4.0.0(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(kf-tailwind@4.0.0)(react-dom@19.2.0(react@19.2.0))(react-is@18.3.1)(react@19.2.0)(redux@5.0.1)(tailwindcss@4.1.17)
+        version: 4.0.0(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(kf-tailwind@4.0.1)(react-dom@19.2.0(react@19.2.0))(react-is@18.3.1)(react@19.2.0)(redux@5.0.1)(tailwindcss@4.1.17)
       react:
         specifier: ^19.2.0
         version: 19.2.0
@@ -64,8 +64,8 @@ importers:
         specifier: ^16.5.0
         version: 16.5.0
       kf-tailwind:
-        specifier: ^4.0.0
-        version: 4.0.0
+        specifier: ^4.0.1
+        version: 4.0.1
       storybook:
         specifier: ^10.0.6
         version: 10.0.6(@testing-library/dom@10.4.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(vite@7.2.2(jiti@2.6.1)(lightningcss@1.30.2))
@@ -2135,8 +2135,8 @@ packages:
       react-dom: ^19.1.0
       tailwindcss: ^4.1.10
 
-  kf-tailwind@4.0.0:
-    resolution: {integrity: sha512-amEzE+/9OvCy7tSHriIF90gPDKsatwH8qHnJPNxdeyCYa233lEmBR9dAFOxQht2fqBn1ka9bLC8fI6br1B/mwA==}
+  kf-tailwind@4.0.1:
+    resolution: {integrity: sha512-atcNqppFRfjH9HYbBJVpuxmSZJ2+TN1s900c/hW6AGYJ7ag2oAgMNJeI2xutfJWAfBQ97wiXz2yesKp0NgIR/Q==}
 
   kleur@3.0.3:
     resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
@@ -4830,7 +4830,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  kf-component-library@4.0.0(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(kf-tailwind@4.0.0)(react-dom@19.2.0(react@19.2.0))(react-is@18.3.1)(react@19.2.0)(redux@5.0.1)(tailwindcss@4.1.17):
+  kf-component-library@4.0.0(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(kf-tailwind@4.0.1)(react-dom@19.2.0(react@19.2.0))(react-is@18.3.1)(react@19.2.0)(redux@5.0.1)(tailwindcss@4.1.17):
     dependencies:
       '@radix-ui/react-accordion': 1.2.12(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@radix-ui/react-alert-dialog': 1.1.15(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -4864,7 +4864,7 @@ snapshots:
       date-fns: 4.1.0
       embla-carousel-react: 8.6.0(react@19.2.0)
       input-otp: 1.4.2(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      kf-tailwind: 4.0.0
+      kf-tailwind: 4.0.1
       lucide-react: 0.546.0(react@19.2.0)
       next-themes: 0.4.6(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       react: 19.2.0
@@ -4884,7 +4884,7 @@ snapshots:
       - react-is
       - redux
 
-  kf-tailwind@4.0.0: {}
+  kf-tailwind@4.0.1: {}
 
   kleur@3.0.3: {}
 

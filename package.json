@@ -33,7 +33,7 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "eslint-plugin-storybook": "^10.0.6",
     "globals": "^16.5.0",
-    "kf-tailwind": "^4.0.0",
+    "kf-tailwind": "^4.0.1",
     "storybook": "^10.0.6",
     "tailwindcss": "^4.1.17",
     "typescript": "~5.9.3",

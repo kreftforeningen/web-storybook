@@ -7,9 +7,6 @@ import {
   TimelineItemDescription,
 } from "kf-component-library";
 
-import "kf-tailwind";
-import "tailwindcss";
-
 const timelineItems = [
   {
     id: 1,

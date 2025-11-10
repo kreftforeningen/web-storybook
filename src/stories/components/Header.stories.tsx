@@ -25,9 +25,6 @@ import {
   LuExternalLink,
 } from "react-icons/lu";
 
-import "kf-tailwind";
-import "tailwindcss";
-
 import logo from "../assets/logo.svg";
 import logoDark from "../assets/logo-dark.svg";
 import logoSymbol from "../assets/logo-symbol.svg";
