@@ -8,7 +8,7 @@ import {
   FactBoxAction,
 } from "kf-component-library";
 
-import "kf-tailwind/index.css";
+import "kf-tailwind";
 import "tailwindcss";
 
 const meta = {

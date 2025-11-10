@@ -31,7 +31,7 @@ import {
   FaTiktok,
 } from "react-icons/fa";
 
-import "kf-tailwind/index.css";
+import "kf-tailwind";
 import "tailwindcss";
 
 const meta = {
