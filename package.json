@@ -13,6 +13,8 @@
     "env": "op inject -i env.template -o .env.local"
   },
   "dependencies": {
+    "@kreftforeningen/web-css": "^1.0.14",
+    "@kreftforeningen/web-react": "^1.0.8",
     "kf-component-library": "^4.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
