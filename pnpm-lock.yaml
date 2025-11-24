@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@kreftforeningen/web-css':
-        specifier: ^1.0.14
-        version: 1.0.14
+        specifier: ^1.0.15
+        version: 1.0.15
       '@kreftforeningen/web-react':
         specifier: ^1.0.14
-        version: 1.0.14(@kreftforeningen/web-css@1.0.14)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(eslint@9.39.1(jiti@2.6.1))(react-dom@19.2.0(react@19.2.0))(react-is@18.3.1)(react@19.2.0)(redux@5.0.1)
+        version: 1.0.14(@kreftforeningen/web-css@1.0.15)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(eslint@9.39.1(jiti@2.6.1))(react-dom@19.2.0(react@19.2.0))(react-is@18.3.1)(react@19.2.0)(redux@5.0.1)
       kf-component-library:
         specifier: ^4.0.1
         version: 4.0.1(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(eslint@9.39.1(jiti@2.6.1))(kf-tailwind@4.0.1)(react-dom@19.2.0(react@19.2.0))(react-is@18.3.1)(react@19.2.0)(redux@5.0.1)(tailwindcss@4.1.17)
@@ -469,8 +469,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
-  '@kreftforeningen/web-css@1.0.14':
-    resolution: {integrity: sha512-69RzqY/O6VfLny7bWylwkZVAnSLtgiMWLyAuVW2nAwEt2q1EcvbmejJJv51BbW3fMAs3dJOFgY5NbD8hHDzhDQ==}
+  '@kreftforeningen/web-css@1.0.15':
+    resolution: {integrity: sha512-2kPly7puYirW9VJ5Wa3vgc5U/sPFYcEl05QX8lwhqiJfOTsoxuRJulpbXS3LWlHnzG6a8XS1QCesgxoAM5pQ7w==}
 
   '@kreftforeningen/web-react@1.0.14':
     resolution: {integrity: sha512-6E7OMpzKMSP4tB9pdgEr019fL7ICsDWITxOs4d3khwVO7pWJPEWArkkkKQgZoatRQNLNGByc+AtHRRYZBY7bYw==}
@@ -3321,11 +3321,11 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@kreftforeningen/web-css@1.0.14': {}
+  '@kreftforeningen/web-css@1.0.15': {}
 
-  '@kreftforeningen/web-react@1.0.14(@kreftforeningen/web-css@1.0.14)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(eslint@9.39.1(jiti@2.6.1))(react-dom@19.2.0(react@19.2.0))(react-is@18.3.1)(react@19.2.0)(redux@5.0.1)':
+  '@kreftforeningen/web-react@1.0.14(@kreftforeningen/web-css@1.0.15)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(eslint@9.39.1(jiti@2.6.1))(react-dom@19.2.0(react@19.2.0))(react-is@18.3.1)(react@19.2.0)(redux@5.0.1)':
     dependencies:
-      '@kreftforeningen/web-css': 1.0.14
+      '@kreftforeningen/web-css': 1.0.15
       '@radix-ui/react-accordion': 1.2.12(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@radix-ui/react-alert-dialog': 1.1.15(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@radix-ui/react-aspect-ratio': 1.1.8(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
