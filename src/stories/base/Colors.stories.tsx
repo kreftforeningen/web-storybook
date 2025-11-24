@@ -15,51 +15,44 @@ type Story = StoryObj<typeof meta>;
 
 export const Colors: Story = {
   render: () => {
-    type Color = {
+    type ScaleValue = { oklch: string; hex: string; rgba: string };
+    type ColorScale = {
       name: string;
-      values: { hex: string; oklch?: string; rgba?: string };
+      variable: string;
+      values: Record<string, ScaleValue>;
     };
 
-    const normalize = (input: unknown): Color[] => {
-      if (Array.isArray(input)) return input as Color[];
-      if (input && typeof input === "object") {
-        return Object.entries(input as Record<string, string>).map(
-          ([key, hex]) => ({
-            name: `--kf-hex-color-${key}`,
-            values: { hex },
-          })
-        );
-      }
-      return [];
-    };
-
-    const colorArray = normalize(colors as unknown);
+    const data = colors as unknown as ColorScale[];
 
     return (
       <>
-        <h2>Basic Colors</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-          {colorArray.map((color) => (
-            <div key={color.name} className="flex flex-col items-center">
-              <div
-                className="min-w-[50px] min-h-[50px] rounded shadow border"
-                style={{
-                  background: `var(${color.name}, ${color.values.hex})`,
-                }}
-              />
-              <div className="mt-2 text-center font-mono">
-                <div className="text-xs">{color.name}</div>
-                <div className="text-xs">{color.values.hex}</div>
-                {color.values.oklch ? (
-                  <div className="mt-1 text-[10px] text-gray-500">
-                    {color.values.oklch}
+        <h2>Extended Colors</h2>
+        <div className="flex flex-col gap-6">
+          {data.map((color) => (
+            <div key={color.name} className="flex flex-col">
+              <h3>{color.name}</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+                {Object.entries(color.values).map(([shade, v]) => (
+                  <div key={shade} className="flex flex-col items-center">
+                    <div
+                      className="w-12 h-12 rounded shadow border"
+                      style={{ background: v.oklch }}
+                      title={`${color.variable}-${shade}`}
+                    />
+                    <div className="mt-1 text-[10px] font-mono text-center">
+                      {`${color.variable}-${shade}`}
+                    </div>
+                    <div className="text-[10px] font-mono text-center">
+                      {v.oklch}
+                    </div>
+                    <div className="text-[10px] font-mono text-center text-gray-500">
+                      {v.hex}
+                    </div>
+                    <div className="text-[10px] font-mono text-center text-gray-500">
+                      {v.rgba}
+                    </div>
                   </div>
-                ) : null}
-                {color.values.rgba ? (
-                  <div className="text-[10px] text-gray-500">
-                    {color.values.rgba}
-                  </div>
-                ) : null}
+                ))}
               </div>
             </div>
           ))}
