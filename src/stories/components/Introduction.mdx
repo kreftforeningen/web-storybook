@@ -2,15 +2,33 @@ import { Meta } from "@storybook/addon-docs/blocks";
 
 <Meta title="components/Introduction" />
 
-# @kreftforeningen/web-react
+# Components
 
-List of components.
+`@kreftforeningen/web-react` delivers the production-ready UI we use across apps: buttons, forms, dialogs, navigation, and more. Each story here demonstrates the defaults, recommended props, and accessibility affordances that ship with the package.
 
-- [NPM.js](https://www.npmjs.com/package/@kreftforeningen/web-react)
+- [NPM](https://www.npmjs.com/package/@kreftforeningen/web-react)
 - [GitHub](https://github.com/kreftforeningen/web-react)
 
 ## Install
 
-```
+```bash
 pnpm add @kreftforeningen/web-react
 ```
+
+## Usage
+
+```tsx
+import { Button } from "@kreftforeningen/web-react";
+
+export const SaveAction = () => (
+  <Button variant="primary" onClick={handleSave}>
+    Save changes
+  </Button>
+);
+```
+
+## Explore
+
+- **Canvas**: inspect interactions, states, and keyboard support.
+- **Docs tab**: review prop tables and usage notes for each component.
+- **Controls**: experiment with variants to copy/paste the configuration you need.

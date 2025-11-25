@@ -4,7 +4,32 @@ import { Meta } from "@storybook/addon-docs/blocks";
 
 # Welcome
 
-This storybook includes documentation of the follow NPM packages. To be used in React apps.
+This Storybook bundles the design-system packages we ship for product teams:
 
-- @kreftforeningen/web-css shown as base
-- @kreftforeninten/web-react shown as components and primitives
+- `@kreftforeningen/web-css`: foundations such as typography, spacing, colors, and layout primitives. See the **Base** section for tokens and usage guidance.
+- `@kreftforeningen/web-react`: composable React components and primitives. Explore **Components** for ready-to-use UI and **Primitives** for low-level building blocks.
+
+## Getting Started
+
+1. Install the packages:
+
+```bash
+pnpm add @kreftforeningen/web-css @kreftforeningen/web-react
+```
+
+2. Import the global CSS once near the root of your app:
+
+```ts
+import "@kreftforeningen/web-css";
+```
+
+3. Build views by mixing primitives (`HGrid`, `HStack`, `Box`, etc.) with higher-level components (`AlertDialog`, `NavigationMenu`, `Person`, …).
+
+## Navigation Tips
+
+- **Base** documents tokens and foundational styles.
+- **Components** showcases opinionated UI with accessibility defaults baked in.
+- **Primitives** exposes layout and interaction helpers for bespoke compositions.
+- **Addons** (Docs, Controls, A11y) are enabled so you can inspect props, play with variants, and validate WCAG considerations directly in the canvas.
+
+Use the search bar or the sidebar filter to jump to any component quickly. Each story includes inline notes, prop tables, and links back to the upstream Radix or internal documentation where relevant.

@@ -2,15 +2,32 @@ import { Meta } from "@storybook/addon-docs/blocks";
 
 <Meta title="primitives/Introduction" />
 
-# @kreftforeningen/web-react
+# Primitives
 
-List of primitives.
+The primitives in `@kreftforeningen/web-react` expose low-level layout and behavior helpers—`HGrid`, `HStack`, `Box`, `Hide`, `Bleed`, `Page`, and more. Use them to compose bespoke experiences while staying aligned with our design tokens.
 
-- [NPM.js](https://www.npmjs.com/package/@kreftforeningen/web-react)
+- [NPM](https://www.npmjs.com/package/@kreftforeningen/web-react)
 - [GitHub](https://github.com/kreftforeningen/web-react)
 
 ## Install
 
-```
+```bash
 pnpm add @kreftforeningen/web-react
 ```
+
+## Usage
+
+```tsx
+import { HGrid, Box } from "@kreftforeningen/web-react";
+
+export const Dashboard = () => (
+  <HGrid columns={{ base: 1, md: 3 }} gap={3}>
+    <Box color="green">Insights</Box>
+    <Box color="orange">Activity</Box>
+    <Box color="blue">Notifications</Box>
+  </HGrid>
+);
+```
+
+Each story here documents recommended tokens, responsive props, and `asChild` usage so you can integrate primitives seamlessly into custom layouts.
+

@@ -2,23 +2,25 @@ import { Meta } from "@storybook/addon-docs/blocks";
 
 <Meta title="base/Introduction" />
 
-# @kreftforeningen/web-css
+# Base
 
-Package to be used as a base for @kreftforeningen/web-react.
+`@kreftforeningen/web-css` defines the foundations every product team builds upon: typography, spacing, color tokens, motion, and responsive breakpoints. This section documents those primitives so you can reference them without digging through Figma or source code.
 
-- [NPM.js](https://www.npmjs.com/package/@kreftforeningen/web-css)
+- [NPM](https://www.npmjs.com/package/@kreftforeningen/web-css)
 - [GitHub](https://github.com/kreftforeningen/web-css/)
 
 ## Install
 
-```
+```bash
 pnpm add @kreftforeningen/web-css
 ```
 
 ## Usage
 
-Import it at the top of your main css file, like this:
+Import the package once near the root of your application (e.g., `main.tsx`, custom `_app.tsx`, or global stylesheet):
 
+```ts
+import "@kreftforeningen/web-css";
 ```
-@import "@kreftforeningen/web-css";
-```
+
+After that, design tokens are available via CSS variables (e.g., `var(--kf-color-blue-500)`, `var(--kf-spacing)`) and utility classes. The stories in this section highlight the palette, typography scales, elevation, and layout helpers so you can copy values directly into your codebase.
