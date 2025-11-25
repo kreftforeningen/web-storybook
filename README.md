@@ -28,7 +28,7 @@ Builds a static version of Storybook for production deployment.
 
 ## Components
 
-This Storybook documents the Kreftforeningen component library (`kf-component-library`), including:
+This Storybook documents the Kreftforeningen component library (`@kreftforeningen/web-react`), including:
 
 - **Base Components**: Colors, Fonts, Headings, Text
 - **UI Components**: Buttons, Cards, Forms, Navigation, Dialogs, and more
