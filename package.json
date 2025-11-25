@@ -13,7 +13,7 @@
     "env": "op inject -i env.template -o .env.local"
   },
   "dependencies": {
-    "@kreftforeningen/web-css": "^1.0.15",
+    "@kreftforeningen/web-css": "^1.0.16",
     "@kreftforeningen/web-react": "^1.0.14",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
@@ -35,7 +35,7 @@
     "globals": "^16.5.0",
     "storybook": "^10.0.8",
     "typescript": "~5.9.3",
-    "typescript-eslint": "^8.47.0",
+    "typescript-eslint": "^8.48.0",
     "vite": "^7.2.4"
   }
 }
