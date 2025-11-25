@@ -26,6 +26,40 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+const CollapsibleExample = () => {
+  const [isCollapsibleOpen, setIsCollapsibleOpen] = React.useState(false);
+  return (
+    <Collapsible
+      open={isCollapsibleOpen}
+      onOpenChange={setIsCollapsibleOpen}
+      className="flex w-[350px] flex-col gap-2"
+    >
+      <div className="flex items-center justify-between gap-4 px-4">
+        <h4 className="text-sm font-semibold">
+          @peduarte starred 3 repositories
+        </h4>
+        <CollapsibleTrigger asChild>
+          <Button variant="ghost" size="icon" className="size-8">
+            <LuChevronsUpDown />
+            <span className="sr-only">Toggle</span>
+          </Button>
+        </CollapsibleTrigger>
+      </div>
+      <div className="rounded-md border px-4 py-2 font-mono text-sm">
+        @radix-ui/primitives
+      </div>
+      <CollapsibleContent className="flex flex-col gap-2">
+        <div className="rounded-md border px-4 py-2 font-mono text-sm">
+          @radix-ui/colors
+        </div>
+        <div className="rounded-md border px-4 py-2 font-mono text-sm">
+          @stitches/react
+        </div>
+      </CollapsibleContent>
+    </Collapsible>
+  );
+};
+
 export const Default: Story = {
   parameters: {
     docs: {
@@ -63,37 +97,5 @@ export const Default: Story = {
       },
     },
   },
-  render: () => {
-    const [isCollapsibleOpen, setIsCollapsibleOpen] = React.useState(false);
-    return (
-      <Collapsible
-        open={isCollapsibleOpen}
-        onOpenChange={setIsCollapsibleOpen}
-        className="flex w-[350px] flex-col gap-2"
-      >
-        <div className="flex items-center justify-between gap-4 px-4">
-          <h4 className="text-sm font-semibold">
-            @peduarte starred 3 repositories
-          </h4>
-          <CollapsibleTrigger asChild>
-            <Button variant="ghost" size="icon" className="size-8">
-              <LuChevronsUpDown />
-              <span className="sr-only">Toggle</span>
-            </Button>
-          </CollapsibleTrigger>
-        </div>
-        <div className="rounded-md border px-4 py-2 font-mono text-sm">
-          @radix-ui/primitives
-        </div>
-        <CollapsibleContent className="flex flex-col gap-2">
-          <div className="rounded-md border px-4 py-2 font-mono text-sm">
-            @radix-ui/colors
-          </div>
-          <div className="rounded-md border px-4 py-2 font-mono text-sm">
-            @stitches/react
-          </div>
-        </CollapsibleContent>
-      </Collapsible>
-    );
-  },
+  render: () => <CollapsibleExample />,
 };

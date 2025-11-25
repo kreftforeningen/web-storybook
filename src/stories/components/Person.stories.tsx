@@ -2,15 +2,15 @@ import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
 
 import {
+  HGrid,
   Person,
-  PersonItem,
-  PersonItemImage,
-  PersonItemContent,
-  PersonItemName,
-  PersonItemTitle,
-  PersonItemEmail,
-  PersonItemPhone,
-  PersonItemDescription,
+  PersonImage,
+  PersonContent,
+  PersonName,
+  PersonTitle,
+  PersonEmail,
+  PersonPhone,
+  PersonDescription,
 } from "@kreftforeningen/web-react";
 
 const personItems = [
@@ -145,57 +145,55 @@ export const Default: Story = {
   parameters: {
     docs: {
       source: {
-        code: `<Person>
+        code: `<HGrid>
   {personItems.map((item) => (
-    <PersonItem key={item.id}>
-      <PersonItemImage
+    <Person key={item.id}>
+      <PersonImage
         src={item.image}
         alt={\`\${item.firstName} \${item.lastName}\`}
         fallback={\`\${item.firstName.charAt(0)}\${item.lastName.charAt(0)}\`}
       />
-      <PersonItemContent>
-        <PersonItemName>
+      <PersonContent>
+        <PersonName>
           {item.firstName} {item.lastName}
-        </PersonItemName>
-        <PersonItemTitle>{item.title}</PersonItemTitle>
-        <PersonItemEmail href={\`mailto:\${item.email}\`}>
+        </PersonName>
+        <PersonTitle>{item.title}</PersonTitle>
+        <PersonEmail href={\`mailto:\${item.email}\`}>
           {item.email}
-        </PersonItemEmail>
-        <PersonItemPhone href={\`tel:\${item.phone}\`}>
+        </PersonEmail>
+        <PersonPhone href={\`tel:\${item.phone}\`}>
           {item.phone}
-        </PersonItemPhone>
-        <PersonItemDescription>{item.description}</PersonItemDescription>
-      </PersonItemContent>
-    </PersonItem>
+        </PersonPhone>
+        <PersonDescription>{item.description}</PersonDescription>
+      </PersonContent>
+    </Person>
   ))}
-</Person>`,
+</HGrid>`,
       },
     },
   },
   render: () => (
-    <Person>
+    <HGrid columns={2} gap={4}>
       {personItems.map((item) => (
-        <PersonItem key={item.id}>
-          <PersonItemImage
+        <Person key={item.id}>
+          <PersonImage
             src={item.image}
             alt={`${item.firstName} ${item.lastName}`}
             fallback={`${item.firstName.charAt(0)}${item.lastName.charAt(0)}`}
           />
-          <PersonItemContent>
-            <PersonItemName>
+          <PersonContent>
+            <PersonName>
               {item.firstName} {item.lastName}
-            </PersonItemName>
-            <PersonItemTitle>{item.title}</PersonItemTitle>
-            <PersonItemEmail href={`mailto:${item.email}`}>
+            </PersonName>
+            <PersonTitle>{item.title}</PersonTitle>
+            <PersonEmail href={`mailto:${item.email}`}>
               {item.email}
-            </PersonItemEmail>
-            <PersonItemPhone href={`tel:${item.phone}`}>
-              {item.phone}
-            </PersonItemPhone>
-            <PersonItemDescription>{item.description}</PersonItemDescription>
-          </PersonItemContent>
-        </PersonItem>
+            </PersonEmail>
+            <PersonPhone href={`tel:${item.phone}`}>{item.phone}</PersonPhone>
+            <PersonDescription>{item.description}</PersonDescription>
+          </PersonContent>
+        </Person>
       ))}
-    </Person>
+    </HGrid>
   ),
 };
