@@ -12,7 +12,7 @@ import {
   FeedbackButtonNegative,
   FeedbackButtonPositive,
   FeedbackHeader,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/Feedback",

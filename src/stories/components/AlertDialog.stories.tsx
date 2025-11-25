@@ -12,7 +12,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
   Button,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 AlertDialog.displayName = "AlertDialog";
 AlertDialogAction.displayName = "AlertDialogAction";

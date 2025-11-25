@@ -5,7 +5,7 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/Tooltip",

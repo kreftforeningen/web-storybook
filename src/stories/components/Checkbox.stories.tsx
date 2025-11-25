@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
-import { Checkbox, Label } from "kf-component-library";
+import { Checkbox, Label } from "@kreftforeningen/web-react";
 
 Checkbox.displayName = "Checkbox";
 Label.displayName = "Label";

@@ -17,7 +17,7 @@ import {
   Checkbox,
   Textarea,
   Button,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 Field.displayName = "Field";
 

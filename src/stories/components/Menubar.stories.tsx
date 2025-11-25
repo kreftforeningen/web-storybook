@@ -15,7 +15,7 @@ import {
   Label,
   RadioGroup,
   RadioGroupItem,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/Menubar",

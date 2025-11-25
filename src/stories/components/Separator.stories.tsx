@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
 
-import { Separator } from "kf-component-library";
+import { Separator } from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/Separator",

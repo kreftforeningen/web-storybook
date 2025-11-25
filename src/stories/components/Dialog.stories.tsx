@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogDescription,
   Button,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/Dialog",

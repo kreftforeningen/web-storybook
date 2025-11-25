@@ -8,7 +8,7 @@ import {
   Avatar,
   AvatarImage,
   AvatarFallback,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/HoverCard",

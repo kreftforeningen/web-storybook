@@ -4,7 +4,7 @@ import {
   AccentuatedLink,
   AccentuatedLinkTitle,
   AccentuatedLinkSubtitle,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/AccentuatedLink",

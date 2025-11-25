@@ -5,7 +5,7 @@ import {
   ButtonGroup,
   ButtonGroupSeparator,
   ButtonGroupText,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 import { FaArrowLeft } from "react-icons/fa";
 
 ButtonGroup.displayName = "ButtonGroup";

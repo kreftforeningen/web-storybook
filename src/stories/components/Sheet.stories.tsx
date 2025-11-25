@@ -12,7 +12,7 @@ import {
   Button,
   Label,
   Input,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/Sheet",

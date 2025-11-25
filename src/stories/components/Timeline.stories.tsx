@@ -5,7 +5,7 @@ import {
   TimelineItem,
   TimelineItemTitle,
   TimelineItemDescription,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const timelineItems = [
   {

@@ -15,7 +15,7 @@ import {
   DropdownMenuTrigger,
   DropdownMenuContent,
   Separator,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 import { FaArrowUp, FaCheck, FaInfo, FaPlus, FaSearch } from "react-icons/fa";
 
 InputGroup.displayName = "InputGroup";

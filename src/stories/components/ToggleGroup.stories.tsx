@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
-import { ToggleGroup, ToggleGroupItem } from "kf-component-library";
+import { ToggleGroup, ToggleGroupItem } from "@kreftforeningen/web-react";
 import { LuBold, LuItalic, LuUnderline } from "react-icons/lu";
 
 const meta = {

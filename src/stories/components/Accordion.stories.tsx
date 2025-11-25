@@ -5,7 +5,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 import { fn } from "storybook/test";
 
 Accordion.displayName = "Accordion";

@@ -1,7 +1,12 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "kf-component-library";
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/Tabs",

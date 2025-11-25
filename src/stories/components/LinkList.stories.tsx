@@ -6,7 +6,7 @@ import {
   LinkListItem,
   LinkListTitle,
   LinkListDescription,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const linklistItems = [
   {

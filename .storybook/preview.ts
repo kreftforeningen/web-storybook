@@ -9,6 +9,8 @@ const preview: Preview = {
         order: [
           "base",
           ["Introduction", "Colors", "Fonts", "Headings", "Text"],
+          "primitives",
+          ["Introduction", "*"],
           "components",
           ["Introduction", "*"],
         ],

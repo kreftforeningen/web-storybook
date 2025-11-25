@@ -11,7 +11,7 @@ import {
   PersonItemEmail,
   PersonItemPhone,
   PersonItemDescription,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const personItems = [
   {

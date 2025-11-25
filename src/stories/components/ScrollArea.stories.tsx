@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
-import { ScrollArea, Separator } from "kf-component-library";
+import { ScrollArea, Separator } from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/ScrollArea",

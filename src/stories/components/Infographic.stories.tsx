@@ -8,7 +8,7 @@ import {
   InfographicItemTitleNumber,
   InfographicItemTitleText,
   InfographicItemDescription,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 import { HiOutlineCheckCircle } from "react-icons/hi";
 
 const infographicItems = [

@@ -10,7 +10,7 @@ import {
   CardTitle,
   AspectRatio,
   Badge,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 import { LuArrowRight } from "react-icons/lu";
 
 const meta = {

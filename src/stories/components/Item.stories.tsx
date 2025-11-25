@@ -9,7 +9,7 @@ import {
   ItemTitle,
   ItemDescription,
   Button,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 import { LuBadgeCheck, LuChevronRight } from "react-icons/lu";
 
 Item.displayName = "Item";

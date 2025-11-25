@@ -1,5 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Alert, AlertDescription, AlertTitle } from "kf-component-library";
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from "@kreftforeningen/web-react";
 import { fn } from "storybook/test";
 
 Alert.displayName = "Alert";
@@ -73,7 +77,7 @@ export const WithIcon: Story = {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="h-4 w-4"
+        style={{ height: "24px", width: "24px" }}
       >
         <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
         <path d="m9 12 2 2 4-4" />

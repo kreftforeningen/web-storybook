@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
-import { Button } from "kf-component-library";
+import { Button } from "@kreftforeningen/web-react";
 
 Button.displayName = "Button";
 

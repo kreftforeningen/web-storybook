@@ -8,7 +8,7 @@ import {
   EmptyDescription,
   EmptyContent,
   EmptyMedia,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 import { FaFolder, FaArrowRight } from "react-icons/fa";
 
 Empty.displayName = "Empty";

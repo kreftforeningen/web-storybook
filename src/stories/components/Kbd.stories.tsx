@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
-import { Kbd, KbdGroup } from "kf-component-library";
+import { Kbd, KbdGroup } from "@kreftforeningen/web-react";
 
 Kbd.displayName = "Kbd";
 

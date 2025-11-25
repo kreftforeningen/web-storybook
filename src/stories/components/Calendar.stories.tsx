@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
-import { Calendar } from "kf-component-library";
+import { Calendar } from "@kreftforeningen/web-react";
 
 type CalendarProps = React.ComponentProps<typeof Calendar>;
 

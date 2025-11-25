@@ -11,7 +11,7 @@ import {
   FooterActions,
   FooterContactItem,
   FooterCopyright,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 import {
   LuPhone,

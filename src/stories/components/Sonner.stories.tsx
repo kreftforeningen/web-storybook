@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
-import { Button, Toaster, toast } from "kf-component-library";
+import { Button, Toaster, toast } from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/Sonner",

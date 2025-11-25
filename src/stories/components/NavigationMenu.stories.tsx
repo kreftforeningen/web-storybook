@@ -7,7 +7,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuContent,
   NavigationMenuLink,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 import { LuCircleHelp, LuCircleAlert, LuCircleCheck } from "react-icons/lu";
 
 const meta = {

@@ -10,7 +10,8 @@ import {
   DownloadFooter,
   DownloadDownloadUrl,
   DownloadOrderUrl,
-} from "kf-component-library";
+  Page,
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/Download",
@@ -111,27 +112,29 @@ export const Default: Story = {
     },
   },
   render: () => (
-    <Download>
-      <DownloadContent>
-        <DownloadImage src="https://picsum.photos/200/300" alt="Download" />
-        <DownloadMain>
-          <DownloadTitle>Download</DownloadTitle>
-          <DownloadDescription>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
-          </DownloadDescription>
-        </DownloadMain>
-      </DownloadContent>
-      <DownloadFooter>
-        <DownloadDownloadUrl href="https://www.google.com">
-          Last ned
-        </DownloadDownloadUrl>
-        <DownloadOrderUrl href="https://www.google.com">
-          Bestill
-        </DownloadOrderUrl>
-      </DownloadFooter>
-    </Download>
+    <Page.Block gutters>
+      <Download>
+        <DownloadContent>
+          <DownloadImage src="https://picsum.photos/200/300" alt="Download" />
+          <DownloadMain>
+            <DownloadTitle>Download</DownloadTitle>
+            <DownloadDescription>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
+            </DownloadDescription>
+          </DownloadMain>
+        </DownloadContent>
+        <DownloadFooter>
+          <DownloadDownloadUrl href="https://www.google.com">
+            Last ned
+          </DownloadDownloadUrl>
+          <DownloadOrderUrl href="https://www.google.com">
+            Bestill
+          </DownloadOrderUrl>
+        </DownloadFooter>
+      </Download>
+    </Page.Block>
   ),
 };

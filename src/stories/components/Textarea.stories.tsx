@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
 
-import { Textarea } from "kf-component-library";
+import { Textarea } from "@kreftforeningen/web-react";
 
 Textarea.displayName = "Textarea";
 

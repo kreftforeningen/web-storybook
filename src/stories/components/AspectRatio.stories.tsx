@@ -1,10 +1,10 @@
-import * as React from "react";
+import type { ComponentProps } from "react";
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { AspectRatio } from "kf-component-library";
+import { AspectRatio } from "@kreftforeningen/web-react";
 
 AspectRatio.displayName = "AspectRatio";
 
-type AspectRatioProps = React.ComponentProps<typeof AspectRatio>;
+type AspectRatioProps = ComponentProps<typeof AspectRatio>;
 
 const meta = {
   title: "components/AspectRatio",

@@ -9,7 +9,7 @@ import {
   CommandEmpty,
   CommandSeparator,
   CommandShortcut,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 import {
   LuCalendar,
   LuSmile,

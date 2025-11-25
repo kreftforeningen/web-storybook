@@ -9,7 +9,7 @@ import {
   BannerButtons,
   BannerButtonPrimary,
   BannerButtonSecondary,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 import bannerImage from "../assets/banner.jpg";
 

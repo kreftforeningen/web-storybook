@@ -12,7 +12,7 @@ import {
   HeaderSearch,
   HeaderMenuList,
   HeaderMenuListItem,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 import {
   LuChevronRight,

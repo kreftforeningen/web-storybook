@@ -1,6 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
-import { Avatar, AvatarFallback, AvatarImage } from "kf-component-library";
+import {
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+} from "@kreftforeningen/web-react";
 
 Avatar.displayName = "Avatar";
 AvatarFallback.displayName = "AvatarFallback";

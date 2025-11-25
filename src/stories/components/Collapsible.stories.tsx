@@ -6,7 +6,7 @@ import {
   CollapsibleTrigger,
   CollapsibleContent,
   Button,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 import { LuChevronsUpDown } from "react-icons/lu";
 
 const meta = {

@@ -6,7 +6,7 @@ import {
   FactBoxTitle,
   FactBoxDescription,
   FactBoxAction,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/FactBox",

@@ -9,7 +9,7 @@ import {
   PaginationLink,
   PaginationEllipsis,
   PaginationNext,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/Pagination",

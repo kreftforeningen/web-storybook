@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
-import { NativeSelect, NativeSelectOption } from "kf-component-library";
+import { NativeSelect, NativeSelectOption } from "@kreftforeningen/web-react";
 
 NativeSelect.displayName = "NativeSelect";
 

@@ -10,7 +10,7 @@ import {
   CarouselContentWrapper,
   AspectRatio,
   CarouselItemDescription,
-} from "kf-component-library";
+} from "@kreftforeningen/web-react";
 
 const meta = {
   title: "components/Carousel",
